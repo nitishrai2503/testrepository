@@ -1,0 +1,22 @@
+import  mysql.connector as connection
+
+mydb= connection.connect(host="localhost", user= "root", password= "Nitish@2503")
+cursor = mydb.cursor()
+cursor.execute("show databases")
+print()
+
+(58;"management";"married";"tertiary";"no";2143)
+(44;"technician";"single";"secondary";"no";29)
+(33;"entrepreneur";"married";"secondary""no";32")
+(47;"blue-collar";"married";"unknown";"no";1506")
+(33;"unknown";"single";"unknown";"no";1")
+(35;"management";"married";"tertiary";"no";231")
+28;"management";"single";"tertiary";"no";447)
+(42;"entrepreneur";"divorced";"tertiary";"yes";2)
+(58;"retired";"married";"primary";"no";121")
+(43;"technician";"single";"secondary";"no";593")
+(41;"admin.";"divorced";"secondary";"no";270)
+(29;"admin.";"single";"secondary";"no";390")
+(53;"technician";"married";"secondary";"no";6)
+(58;"technician";"married";"unknown";"no";71")
+(57;"services";"married";"secondary";"no";162)
